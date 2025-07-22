@@ -12,10 +12,10 @@
 #logo{
   color: #f08804;
   font-size: 25px;
-  margin-left:0px ;
+  /* margin-left:0px ; */
 }
 a{
-  margin: 100px;
+  margin-right: 200px;
   text-decoration: none;
   color: #fff;
 }
