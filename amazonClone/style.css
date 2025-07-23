@@ -165,6 +165,10 @@ body {
   /* margin: 0px 15px; */
 }
 
+.nav-cart i{
+  font-size: 35px;
+}
+
 /* sub header*/
 
 .sub-head{
@@ -186,6 +190,49 @@ body {
   padding: 0px 10px;
   border-radius: 5px;
 }
+
+
+
+
+
 .sub-items>p{
  margin-left: 5px;
+}
+
+/* Hero-section */
+
+.hero-section{
+  height: 350px;
+  background-image: url(hero.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero-msg{
+  height: 40;
+  width: 95%;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 10px 14px;
+}
+
+.hero-msg a{
+  color:#2162a1;
+}
+
+/* content section */
+
+.elements-section{
+  height: 1300px;
+  width: 95%;
+}
+
+.box{
+  height: 420px;
+  width: 314px;
+  padding: 0px 10px;
 }
