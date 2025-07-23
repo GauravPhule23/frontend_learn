@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  
   /* border: border-box; */
+}
+
+body{
+  background-color: lightgray;
 }
 
 html,
@@ -226,13 +231,45 @@ body {
 
 /* content section */
 
-.elements-section{
+.container{
   height: 1300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.shop-section{
+  
   width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #131921; */
 }
 
 .box{
-  height: 420px;
+  height:385px ;
   width: 314px;
-  padding: 0px 10px;
+  background-color: #fff;
+  margin: 0px 15px;
+}
+
+.inner-box{
+  width: 85%;
+  margin: 10px 5px 5px 25px;
+}
+
+.box1-name{
+  margin: 30px 25px 5px 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.box1-img{
+  height: 70%;
+  background-image: url(game.jpg);
+  background-size: cover;
+}
+
+.box1-link{
+  color: #2162a1;
 }
